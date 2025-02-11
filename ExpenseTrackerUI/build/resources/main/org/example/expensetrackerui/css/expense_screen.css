@@ -1,0 +1,69 @@
+/* Expense Form Styling */
+.expense-form {
+    -fx-padding: 20px;
+    -fx-background-color: #f4f4f4;
+    -fx-spacing: 20px;
+}
+
+/* Center align HBox rows */
+.hbox-centered {
+    -fx-alignment: center; /* Center align the elements horizontally */
+}
+
+/* Submit button styling */
+.submit-button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-pref-width: 200px;
+    -fx-margin-top: 20px; /* Add margin above submit button */
+}
+
+/* Dropdown and text field general styling */
+.dropdown-half, .textfield-half, .date-picker-half {
+    -fx-pref-width: 250px;
+    -fx-pref-height: 50px;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #6b8e23;
+    -fx-border-width: 2px;
+    -fx-padding: 5px;
+    -fx-margin-bottom: 20px; /* Add margin between fields */
+}
+
+/* Date picker styling */
+/* General styling for the DatePicker */
+.date-picker {
+    -fx-font-size: 14px;
+}
+
+/* Styling the date text inside the DatePicker */
+.date-picker .text-field {
+    -fx-background-color: transparent;
+    -fx-text-fill: #6b8e23;
+    -fx-font-size: 14px;
+}
+
+/* Styling the calendar icon */
+.date-picker .arrow-button {
+    -fx-background-color: transparent;
+}
+
+/* Styling the popup */
+.date-picker-popup .month-year-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5px;
+}
+
+/* Placeholder text styling */
+.date-picker .text-field:focused .prompt-text {
+    -fx-text-fill: #6b8e23;
+}
+
+/* Focused state styling */
+.date-picker:focused {
+    -fx-border-color: #6b8e23;
+}

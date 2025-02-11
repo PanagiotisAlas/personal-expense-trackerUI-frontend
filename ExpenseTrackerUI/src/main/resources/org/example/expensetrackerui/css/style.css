@@ -1,0 +1,60 @@
+/* General Styles */
+.login-vbox, .signup-vbox {
+    -fx-padding: 20;
+    -fx-background-color: #f8f8f8;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-spacing: 15;
+}
+
+/* Heading Styles */
+.login-heading, .signup-heading {
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+    -fx-fill: #4CAF50;
+}
+
+/* Subheading and Loading Text Styles */
+.login-subheading, .signup-subheading, .loading-text {
+    -fx-font-size: 14;
+    -fx-fill: #333;
+}
+
+/* Text Field Styles */
+.mfx-text-field, .mfx-password-field {
+    -fx-pref-width: 400px; /* Increased width */
+    -fx-pref-height: 35px;  /* Reduced height */
+}
+
+/* Button Styles */
+.mfx-button {
+    -fx-pref-width: 400px;  /* Same width as text fields for consistency */
+    -fx-pref-height: 45px;  /* Increased height to enlarge the button */
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+}
+
+.mfx-button:hover {
+    -fx-background-color: #45a049;
+}
+
+/* Link Text */
+.link-text {
+    -fx-fill: #673AB7;
+    -fx-underline: true;
+    -fx-cursor: hand;
+}
+
+/* Snackbar styling for more control */
+.snackbar {
+    -fx-background-color: rgba(0, 0, 0, 0.85);
+    -fx-background-radius: 15px;
+    -fx-padding: 20px 30px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+

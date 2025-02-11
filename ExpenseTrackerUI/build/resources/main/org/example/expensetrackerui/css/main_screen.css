@@ -1,0 +1,140 @@
+    /* General layout and spacing */
+    .main-layout {
+        -fx-padding: 20px;
+        -fx-background-color: #f4f4f4;
+    }
+
+    /* Sidebar Styling */
+    .sidebar {
+        -fx-background-color: #f9f9f9;
+        -fx-border-color: #6b8e23;
+        -fx-border-width: 1px;
+        -fx-border-radius: 10px;
+        -fx-padding: 10px;
+    }
+
+    /* Sidebar heading ("Actions") */
+    .sidebar-heading {
+        -fx-font-size: 20px;
+        -fx-font-weight: bold;
+        -fx-text-fill: #6b8e23;
+        -fx-margin-bottom: 40px;
+    }
+
+    /* Outlined button styling */
+    .outlined-button {
+        -fx-background-color: transparent;
+        -fx-border-color: #6b8e23;
+        -fx-border-width: 2px;
+        -fx-border-radius: 5px;
+        -fx-text-fill: #6b8e23;
+        -fx-padding: 5px 10px;
+        -fx-font-size: 14px;
+    }
+
+    /* Solid button styling (Logout button) */
+    .solid-button {
+        -fx-background-color: #6b8e23;
+        -fx-text-fill: #ffffff;
+        -fx-border-radius: 10px;
+        -fx-padding: 5px 10px;
+        -fx-font-size: 14px;
+    }
+
+    /* Date picker styling */
+    /* General styling for the DatePicker */
+    .date-picker {
+        -fx-background-color: transparent;
+        -fx-border-color: #6b8e23;
+        -fx-border-radius: 5px;
+        -fx-border-width: 2px;
+        -fx-padding: 5px;
+        -fx-font-size: 14px;
+    }
+
+    /* Styling the date text inside the DatePicker */
+    .date-picker .text-field {
+        -fx-background-color: transparent;
+        -fx-text-fill: #6b8e23;
+        -fx-font-size: 14px;
+    }
+
+    /* Styling the calendar icon */
+    .date-picker .arrow-button {
+        -fx-background-color: transparent;
+    }
+
+    /* Styling the popup */
+    .date-picker-popup .month-year-pane {
+        -fx-background-color: #ffffff;
+        -fx-border-radius: 5px;
+    }
+
+    /* Placeholder text styling */
+    .date-picker .text-field:focused .prompt-text {
+        -fx-text-fill: #6b8e23;
+    }
+
+    /* Focused state styling */
+    .date-picker:focused {
+        -fx-border-color: #6b8e23;
+    }
+
+    /* Expense table container styling */
+    .expense-table-container {
+        -fx-background-color: #ffffff;
+        -fx-border-color: #6b8e23;
+        -fx-border-width: 2px;
+        -fx-border-radius: 10px;
+        -fx-padding: 20px;
+    }
+
+    /* Enlarged and styled Expenses header */
+    .expenses-header {
+        -fx-font-size: 28px;
+        -fx-font-weight: bold;
+        -fx-text-fill: #6b8e23;
+        -fx-padding: 10px 0;
+    }
+
+    /* Expense table styling */
+    .expense-table {
+        -fx-background-color: #ffffff;
+        -fx-border-radius: 10px;
+    }
+
+    /* Hide TableView header */
+    .table-view .column-header-background {
+        -fx-padding: 0;
+        -fx-background-color: transparent;
+        -fx-min-height: 0;
+        -fx-pref-height: 0;
+        -fx-max-height: 0;
+        -fx-border-width: 0;
+    }
+
+    /* Table row styling */
+    .expense-table .table-row-cell {
+        -fx-background-color: #ffffff;
+        -fx-border-color: transparent;
+    }
+
+    .expense-table .table-row-cell:odd {
+        -fx-background-color: #f4f4f4; /* Alternate row colors */
+    }
+
+    .expense-table .table-row-cell:hover {
+        -fx-background-color: #e0f7fa; /* Highlighted row on hover */
+    }
+
+    /* Column text alignment */
+    .table-column {
+        -fx-alignment: center-left;
+        -fx-padding: 5px;
+    }
+
+    /* Styling for the selected row */
+    .expense-table .table-row-cell:selected {
+        -fx-background-color: #b2dfdb;
+        -fx-text-fill: #000000;
+    }

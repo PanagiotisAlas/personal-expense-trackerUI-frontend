@@ -1,0 +1,41 @@
+/* General layout and spacing */
+.statistics-screen {
+    -fx-padding: 20px;
+    -fx-background-color: #f4f4f4;
+    -fx-spacing: 20px;
+}
+
+/* Center align HBox rows */
+.hbox-centered {
+    -fx-alignment: center;
+}
+
+/* Statistics heading */
+.statistics-heading {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4caf50;
+}
+
+/* ComboBox styling for Month and Year */
+.month-picker, .year-picker {
+    -fx-pref-width: 200px;
+    -fx-background-color: transparent;
+    -fx-border-color: #6b8e23;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Pie chart styling */
+.expense-pie-chart {
+    -fx-padding: 20px;
+}
+
+/* Back button styling */
+.back-button {
+    -fx-background-color: #6b8e23;
+    -fx-text-fill: #ffffff;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 14px;
+}

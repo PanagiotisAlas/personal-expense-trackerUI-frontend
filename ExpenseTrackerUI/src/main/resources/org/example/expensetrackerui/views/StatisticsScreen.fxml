@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.PieChart?>
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.expensetrackerui.controllers.StatisticsScreenController"
+>
+    <!-- Statistics Heading -->
+    <Label text="Monthly Statistics" styleClass="statistics-heading"/>
+
+    <!-- Month and Year Pickers -->
+    <HBox spacing="20" styleClass="hbox-centered">
+        <Label text="Select Month and Year:"/>
+        <MFXComboBox fx:id="monthPicker" promptText="Select Month" styleClass="month-picker"/>
+        <MFXComboBox fx:id="yearPicker" promptText="Select Year" styleClass="year-picker"/>
+    </HBox>
+
+    <!-- Pie Chart for Expenses -->
+    <PieChart fx:id="expensePieChart" styleClass="expense-pie-chart" />
+
+    <!-- Back Button -->
+    <HBox styleClass="hbox-centered">
+        <MFXButton fx:id="backButton" text="Back" styleClass="back-button"/>
+    </HBox>
+
+</VBox>
+
+
