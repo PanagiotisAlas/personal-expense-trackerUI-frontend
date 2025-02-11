@@ -77,16 +77,21 @@ This project is licensed under the MIT License - see LICENSE.md for details.
 
 Since this is part of a learning project, feel free to fork and modify for educational purposes.
 
+📩 Contact
+
 For any questions, feel free to reach out:
 
-Email: pana.alatzas@gmail.com
-GitHub: https://github.com/PanagiotisAlas
-LinkedIn: https://www.linkedin.com/in/panagiotis-alatzas-1b295233a/overlay/about-this-profile/
+    Email: pana.alatzas@gmail.com
+    GitHub: https://github.com/PanagiotisAlas
+    LinkedIn: https://www.linkedin.com/in/panagiotis-alatzas-1b295233a/overlay/about-this-profile/
 
 🔥 If you find this project useful, please ⭐ it on GitHub!
 
 
-⚠️ Disclaimer
-This project was created as part of a masterclass/tutorial and is for learning purposes only.
-Some parts of the code are based on the original tutorial, and I do not claim full ownership of this work.
+---
+
+
+## ⚠️ Disclaimer
+This project was created as part of a masterclass/tutorial and is for **learning purposes only**.  
+Some parts of the code are based on the original tutorial, and I do not claim full ownership of this work.  
 If you are the author of the original course and have any concerns, please contact me.
